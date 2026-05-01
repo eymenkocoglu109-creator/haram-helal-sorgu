@@ -80,7 +80,7 @@ arka_plan_yap("kudüs.jpg")
 st.title("🚫 BOYKOT SORGULAMA")
 
 
-boykot = ["cocacola", "pepsi", "starbucks", "akmina", "aquafına", "7up", "cappy", "damla", "fanta", "sprite", "lipton", "redbull", "monster", "erikli", "hayat", "fruko", "actıvıa", "sırma", "lipton", "doğadan", "powerade", "fruko", "nescafe", "sırma", "nestle", "tropicana", "yedigün", "evian", "alpro", "pellegrıno", "algida", "bounty", "cheetos", "calve", "crunch", "çerezza", "danette", "doritos", "falım","first","hellmanns","kitkat","kent","knorr","kelloggs","danette","danone","m&ms","milka","mars","missbon","oreo","milkyway","pringles","polo","olips","rocco","ruffles","sana","nestle","axe","clear","dove","ipana","signal","cif","prill","finish","omo","danino","yumoş","rinso","persil","vim","aptamil","prima",]
+boykot = []
 boykotdeğil = ["ülker","içim","torku","niğde gazozu","lc waikiki","mavi","koton","vestel","beko","flo","inci","polaris","istikbal","yataş","bellona","eti","pınar","uludağ","beypazarı","sek","sütaş","çaykur","doğuş","tat","dimes","abc","peros","bingo","porçöz","papia","a101","bim","şok","hakmar","filli boya","casper","reeder","sunny","kumtel","greyder","aytaç","superfresh"]
 
 eylem = st.text_input("Sorgulamak istediğiniz eylemi girin:")
