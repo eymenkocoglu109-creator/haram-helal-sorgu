@@ -97,5 +97,13 @@ if eylem:
     else:
         st.info(f"❓ '{eylem}' hakkında bilgi bulunmamaktadır.")
 
+# Sorgulama kısmının bittiği yerin en altına, if eylem: bloğunun dışına ekle
+st.markdown("---") # Bir çizgi çeker
+st.caption("""
+    **Yasal Uyarı:** Bu sitede yer alan bilgiler farklı internet kaynaklarından derlenmiş olup, 
+    hiçbir şekilde kesinlik ve resmiyet içermemektedir. Veriler sadece genel bilgilendirme amaçlıdır. 
+    Hatalı olduğunu düşündüğünüz içerikler için lütfen iletişime geçiniz.
+""")
+
 
 
