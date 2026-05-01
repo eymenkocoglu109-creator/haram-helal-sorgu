@@ -90,10 +90,10 @@ if eylem:
     st.markdown("---")
     if eylem_temiz in boykot:
         st.error(f"❌ {eylem.capitalize()} boykot listesinde.")
-        emoji_yagmuru("❌")
+        
     elif eylem_temiz in boykotdeğil:
         st.success(f"✅ {eylem.capitalize()} boykot listesinde değil.")
-        emoji_yagmuru("✅")
+        
     else:
         st.info(f"❓ '{eylem}' hakkında bilgi bulunmamaktadır.")
 
